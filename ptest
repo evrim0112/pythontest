@@ -1,11 +1,11 @@
-# @semantic-block:auth_function:red:User authentication logic
+# @semantic-block:auth_function:User authentication logic
 def authenticate(username, password):
     if not username or not password:
         raise ValueError("Credentials cannot be empty")
     # Authentication implementation
 # @end-semantic-block:auth_function
 
-# @semantic-block:validation:green:Input validation  
+# @semantic-block:validation:Input validation  
 def validate_input(input_str):
     return input_str is not None and len(input_str.strip()) > 0
 # @end-semantic-block:validation
